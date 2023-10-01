@@ -1535,3 +1535,434 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.10.01-16.27.57:375][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
 [2023.10.01-16.27.57:398][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2023.10.01-16.28.16:292][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.01-16.29.10:548][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.10.01-16.29.13:647][244]Cmd: EDIT COPY
+[2023.10.01-16.29.13:991][262]Cmd: EDIT PASTE
+[2023.10.01-16.29.30:675][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.10.01-16.29.30:732][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.01-16.29.30:777][492]LogSavePackage: Moving '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Minimal_DefaultAF9227CB492D114FA46E34A99FD55A7D.tmp' to '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.10.01-16.29.30:787][492]LogFileHelpers: Saving map 'Minimal_Default' took 0.079
+[2023.10.01-16.29.30:807][492]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.10.01-16.29.30:808][492]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.10.01-16.29.32:766][615]LogTemp: Repeating last play command: Selected Viewport
+[2023.10.01-16.29.32:772][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.01-16.29.32:772][615]PIE: New page: PIE session: Minimal_Default (1 окт. 2023 г., 22:29:32)
+[2023.10.01-16.29.32:821][615]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.10.01-16.29.32:832][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010368s)
+[2023.10.01-16.29.32:833][615]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.10.01-16.29.32:834][615]LogPlayLevel: PIE: World Init took: (0.002104s)
+[2023.10.01-16.29.32:834][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012665s)
+[2023.10.01-16.29.32:857][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.10.01-16.29.32:858][615]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.01-16.29.32:858][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.01-16.29.32:858][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.01-16.29.32:859][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.01-16.29.32:859][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.01-16.29.32:859][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.01-16.29.32:859][615]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.01-16.29.32:864][615]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.01-16.29.32:864][615]LogAudioMixer: Display: 1: FrontRight
+[2023.10.01-16.29.32:877][615]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2023.10.01-16.29.32:877][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.01-16.29.32:877][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.01-16.29.32:877][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.01-16.29.32:878][615]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.01-16.29.32:878][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.01-16.29.32:878][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.01-16.29.32:879][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.01-16.29.32:879][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.01-16.29.32:879][615]LogInit: FAudioDevice initialized.
+[2023.10.01-16.29.32:879][615]LogAudio: Display: Audio Device (ID: 7) registered with world 'Minimal_Default'.
+[2023.10.01-16.29.32:890][615]LogLoad: Game class is 'BP_GameMode_C'
+[2023.10.01-16.29.32:895][615]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.10.01-19.29.32
+[2023.10.01-16.29.32:895][615]LogWorld: Bringing up level for play took: 0.003359
+[2023.10.01-16.29.32:895][615]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2023.10.01-16.29.32:898][615]PIE: Server logged in
+[2023.10.01-16.29.32:898][615]PIE: Play in editor total start time 0,128 seconds.
+[2023.10.01-16.29.59:292][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.01-16.29.59:292][671]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.10.01-16.29.59:293][671]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.10.01-16.29.59:293][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.01-16.29.59:299][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.01-16.29.59:318][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.01-16.29.59:339][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.01-16.29.59:339][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.01-16.29.59:341][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.01-16.29.59:347][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.10.01-16.29.59:374][672]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.10.01-16.30.01:497][890]LogRenderer: Reallocating scene render targets to support 912x460 Format 10 NumSamples 1 (Frame:26676).
+[2023.10.01-16.30.01:571][892]LogRenderer: Reallocating scene render targets to support 916x460 Format 10 NumSamples 1 (Frame:26680).
+[2023.10.01-16.30.01:643][894]LogRenderer: Reallocating scene render targets to support 920x460 Format 10 NumSamples 1 (Frame:26684).
+[2023.10.01-16.30.01:709][896]LogRenderer: Reallocating scene render targets to support 924x460 Format 10 NumSamples 1 (Frame:26688).
+[2023.10.01-16.30.01:744][897]LogRenderer: Reallocating scene render targets to support 928x460 Format 10 NumSamples 1 (Frame:26690).
+[2023.10.01-16.30.01:807][899]LogRenderer: Reallocating scene render targets to support 932x460 Format 10 NumSamples 1 (Frame:26694).
+[2023.10.01-16.30.01:873][901]LogRenderer: Reallocating scene render targets to support 936x460 Format 10 NumSamples 1 (Frame:26698).
+[2023.10.01-16.30.01:909][902]LogRenderer: Reallocating scene render targets to support 940x460 Format 10 NumSamples 1 (Frame:26700).
+[2023.10.01-16.30.01:981][904]LogRenderer: Reallocating scene render targets to support 948x460 Format 10 NumSamples 1 (Frame:26704).
+[2023.10.01-16.30.02:018][905]LogRenderer: Reallocating scene render targets to support 952x460 Format 10 NumSamples 1 (Frame:26706).
+[2023.10.01-16.30.02:057][906]LogRenderer: Reallocating scene render targets to support 956x460 Format 10 NumSamples 1 (Frame:26708).
+[2023.10.01-16.30.02:161][909]LogRenderer: Reallocating scene render targets to support 960x460 Format 10 NumSamples 1 (Frame:26714).
+[2023.10.01-16.30.02:203][910]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:26716).
+[2023.10.01-16.30.34:078][950]Cmd: DELETE
+[2023.10.01-16.30.34:078][950]Cmd: ACTOR DELETE
+[2023.10.01-16.30.34:083][950]LogEditorActor: Deleted Actor: SkyLight
+[2023.10.01-16.30.34:110][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.01-16.30.34:114][950]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2023.10.01-16.30.36:082][171]Cmd: DELETE
+[2023.10.01-16.30.36:082][171]Cmd: ACTOR DELETE
+[2023.10.01-16.30.36:088][171]LogEditorActor: Actor Light Source is referenced by BP_Sky_Sphere.
+[2023.10.01-16.30.45:162][171]LogSlate: Window 'Message' being destroyed
+[2023.10.01-16.30.45:169][171]Message dialog closed, result: Cancel, title: Message, text: Actor Light Source is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+BP_Sky_Sphere
+[2023.10.01-16.30.45:192][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.01-16.30.45:193][171]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2023.10.01-16.30.56:467][224]Cmd: DELETE
+[2023.10.01-16.30.56:467][224]Cmd: ACTOR DELETE
+[2023.10.01-16.30.56:470][224]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2023.10.01-16.30.56:495][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.10.01-16.30.56:498][224]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.10.01-16.31.06:825][140]Cmd: DELETE
+[2023.10.01-16.31.06:825][140]Cmd: ACTOR DELETE
+[2023.10.01-16.31.06:829][140]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.10.01-16.31.06:855][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.01-16.31.06:858][140]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2023.10.01-16.31.20:559][755]Cmd: DELETE
+[2023.10.01-16.31.20:559][755]Cmd: ACTOR DELETE
+[2023.10.01-16.31.20:563][755]LogEditorActor: Deleted Actor: AtmosphericFog
+[2023.10.01-16.31.20:586][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.01-16.31.20:588][755]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.10.01-16.31.43:096][413]Cmd: DELETE
+[2023.10.01-16.31.43:096][413]Cmd: ACTOR DELETE
+[2023.10.01-16.31.43:100][413]LogEditorActor: Deleted Actor: PointLight
+[2023.10.01-16.31.43:126][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.10.01-16.31.43:128][413]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2023.10.01-16.31.50:357][258]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.50:357][258]LogEditorTransaction: Undo Delete Actors
+[2023.10.01-16.31.54:126][635]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.54:126][635]LogEditorTransaction: Undo Create Actors
+[2023.10.01-16.31.54:759][663]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.54:759][663]LogEditorTransaction: Undo Delete Actors
+[2023.10.01-16.31.55:568][756]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.55:568][756]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.01-16.31.56:208][826]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.56:209][826]LogEditorTransaction: Undo Delete Actors
+[2023.10.01-16.31.57:276][935]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.57:276][935]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.01-16.31.57:745][989]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.57:745][989]LogEditorTransaction: Undo Delete Actors
+[2023.10.01-16.31.58:370][ 51]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.58:370][ 51]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.01-16.31.59:361][151]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.59:361][151]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.01-16.31.59:974][222]Cmd: TRANSACTION UNDO
+[2023.10.01-16.31.59:974][222]LogEditorTransaction: Undo Delete Actors
+[2023.10.01-16.32.02:085][424]Cmd: DELETE
+[2023.10.01-16.32.02:085][424]Cmd: ACTOR DELETE
+[2023.10.01-16.32.02:093][424]LogEditorActor: Actor Light Source is referenced by BP_Sky_Sphere.
+[2023.10.01-16.32.03:965][424]LogSlate: Window 'Message' being destroyed
+[2023.10.01-16.32.03:974][424]Message dialog closed, result: Cancel, title: Message, text: Actor Light Source is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+BP_Sky_Sphere
+[2023.10.01-16.32.04:001][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.10.01-16.32.04:005][424]LogEditorActor: Deleted 0 Actors (0.039 secs)
+[2023.10.01-16.32.05:504][586]Cmd: DELETE
+[2023.10.01-16.32.05:504][586]Cmd: ACTOR DELETE
+[2023.10.01-16.32.05:507][586]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2023.10.01-16.32.05:532][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.01-16.32.05:533][586]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2023.10.01-16.32.06:911][743]Cmd: DELETE
+[2023.10.01-16.32.06:911][743]Cmd: ACTOR DELETE
+[2023.10.01-16.32.06:917][743]LogEditorActor: Deleted Actor: AtmosphericFog
+[2023.10.01-16.32.06:940][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.01-16.32.06:941][743]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.10.01-16.32.09:971][ 89]Cmd: DELETE
+[2023.10.01-16.32.09:971][ 89]Cmd: ACTOR DELETE
+[2023.10.01-16.32.09:976][ 89]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.10.01-16.32.10:000][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.01-16.32.10:001][ 89]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.10.01-16.32.22:384][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.01-16.32.22:431][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.01-16.32.22:474][531]LogSavePackage: Moving '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Minimal_DefaultAE9DD31B4AF0D799C69569907489DEED.tmp' to '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.10.01-16.32.22:482][531]LogFileHelpers: Saving map 'Minimal_Default' took 0.075
+[2023.10.01-16.32.22:502][531]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.10.01-16.32.22:502][531]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.10.01-16.32.23:555][654]LogEditorViewport: Clicking Background
+[2023.10.01-16.32.23:909][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2023.10.01-16.32.27:797][135]LogEditorViewport: Clicking Background
+[2023.10.01-16.33.18:757][ 25]Cmd: TRANSACTION UNDO
+[2023.10.01-16.33.18:757][ 25]LogEditorTransaction: Undo Edit Intensity Scale
+[2023.10.01-16.33.19:191][ 36]Cmd: TRANSACTION UNDO
+[2023.10.01-16.33.19:191][ 36]LogEditorTransaction: Undo Edit Intensity Scale
+[2023.10.01-16.33.52:035][797]LogEditorViewport: Clicking on Actor (LMB): BP_Walls2_C (BP_Walls81)
+[2023.10.01-16.33.55:025][ 62]LogRenderer: Reallocating scene render targets to support 968x460 Format 10 NumSamples 1 (Frame:51201).
+[2023.10.01-16.33.55:105][ 66]LogRenderer: Reallocating scene render targets to support 972x460 Format 10 NumSamples 1 (Frame:51207).
+[2023.10.01-16.33.55:142][ 67]LogRenderer: Reallocating scene render targets to support 976x460 Format 10 NumSamples 1 (Frame:51209).
+[2023.10.01-16.33.55:205][ 69]LogRenderer: Reallocating scene render targets to support 980x460 Format 10 NumSamples 1 (Frame:51213).
+[2023.10.01-16.33.55:304][ 78]LogRenderer: Reallocating scene render targets to support 984x460 Format 10 NumSamples 1 (Frame:51223).
+[2023.10.01-16.33.55:395][ 84]LogRenderer: Reallocating scene render targets to support 988x460 Format 10 NumSamples 1 (Frame:51231).
+[2023.10.01-16.33.55:455][ 86]LogRenderer: Reallocating scene render targets to support 992x460 Format 10 NumSamples 1 (Frame:51235).
+[2023.10.01-16.33.55:513][ 88]LogRenderer: Reallocating scene render targets to support 996x460 Format 10 NumSamples 1 (Frame:51239).
+[2023.10.01-16.33.55:547][ 89]LogRenderer: Reallocating scene render targets to support 1000x460 Format 10 NumSamples 1 (Frame:51241).
+[2023.10.01-16.34.03:307][923]MapCheck: New page: Map Check
+[2023.10.01-16.34.03:323][923]LightingResults: New page: Lighting Build - 1 окт. 2023 г., 22:34:03
+[2023.10.01-16.34.03:421][923]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.10.01-16.34.03:507][923]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.10.01-16.34.03:521][923]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.10.01-16.34.04:560][923]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.10.01-16.34.04:561][923]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17352
+[2023.10.01-16.34.07:361][923]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.10.01-16.34.07:361][923]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.10.01-16.34.07:361][923]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.10.01-16.34.07:361][923]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.10.01-16.34.07:361][923]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.10.01-16.34.07:361][923]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.10.01-16.34.07:581][923]LogEditorBuildUtils: Build time 0:04
+[2023.10.01-16.34.07:592][923]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Door in PCD3D_SM5, Default, SM5 (DDC key hash: 0B0C58D7C893E58F76E9F390A03BC8EBC6B146E2), compiling. 
+[2023.10.01-16.34.07:602][923]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:604][923]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Door in PCD3D_SM5, Default, SM5 (DDC key hash: 1A066DF3DF485D10D849BDE91C43EBFD7F24209A), compiling. 
+[2023.10.01-16.34.07:607][923]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:637][924]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2023.10.01-16.34.07:637][924]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2023.10.01-16.34.07:637][924]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:641][924]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 5093B5B31ADE16093E96671F62BC5DFDB3EAD348), compiling. 
+[2023.10.01-16.34.07:645][924]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:647][924]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2023.10.01-16.34.07:647][924]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2023.10.01-16.34.07:647][924]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:647][924]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 605A0C3EEDADC56C09E95F473D7F69729E70ED10), compiling. 
+[2023.10.01-16.34.07:652][924]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:691][925]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Frame in PCD3D_SM5, Default, SM5 (DDC key hash: 937668CBF0158E1B071C4FF78F99963D9ECB53D0), compiling. 
+[2023.10.01-16.34.07:697][925]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:699][925]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Frame in PCD3D_SM5, Default, SM5 (DDC key hash: BFDFE8512B0C5280DBC41B2F48F07615C9FFB101), compiling. 
+[2023.10.01-16.34.07:705][925]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:740][926]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Rock in PCD3D_SM5, Default, SM5 (DDC key hash: 3676E2FB5D4BDAA3A58AA07B996B98B9C7151C36), compiling. 
+[2023.10.01-16.34.07:745][926]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.07:746][926]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Rock in PCD3D_SM5, Default, SM5 (DDC key hash: AAEF5FB95008072271A907F8C92DC95023B99EE5), compiling. 
+[2023.10.01-16.34.07:749][926]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 7 distinct outputs (43.75%)
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.10.01-16.34.10:024][927]LogShaderCompilers: Display: ================================================
+[2023.10.01-16.34.10:535][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.10.01-16.34.12:572][937]Job is a success!
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.026s
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:      Bricks at depth
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:          1: 5.2% covering 6.2% of volume
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:          2: 93.5% covering 1.8% of volume
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:      Bricks in each level
+[2023.10.01-16.34.13:076][938]LogVolumetricLightmapImport:          Minimal_Default 			 77 bricks 	 100.0% (Persistent Level)
+[2023.10.01-16.34.13:193][938]LogTexture: Display: Building textures: SkyOcclusion1_1 (OODLE_AutoDXT, 512X256)
+[2023.10.01-16.34.13:193][938]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 512X512)
+[2023.10.01-16.34.13:193][938]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 512X512)
+[2023.10.01-16.34.13:193][938]Lightmass on DESKTOP-D4126L1: 1.37 sec total, 113 ms importing, 5 ms setup, 77 ms photons, 1.14 sec processing, 0 ms extra exporting [5/5 mappings]. Threads: 7.98 sec total, 569 ms processing.
+[2023.10.01-16.34.13:193][938]LogStaticLightingSystem: Minimal_Default_BuiltData storing lightmap data for 5 meshes in 1 LightmapResourceClusters (5.0 Meshes per cluster).
+[2023.10.01-16.34.13:228][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.10.01-16.34.13:267][938]LogStaticLightingSystem: Illumination: 9.60 sec (46 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.10.01-16.34.13:267][938]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.10.01-16.34.13:268][938]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.10.01-16.34.13:365][938]DumpUnbuiltLightIteractions
+[2023.10.01-16.34.13:365][938]Lights with unbuilt interactions: 0
+[2023.10.01-16.34.13:365][938]
+[2023.10.01-16.34.13:365][938]Primitives with unbuilt interactions: 0
+[2023.10.01-16.34.13:484][938]LogTexture: Display: Building textures: NewReflectionComponentTextureD6C57B644F03DADF4F2699848FAEA3C3 (BGRA8, 128X128)
+[2023.10.01-16.34.13:498][938]LogTexture: Display: Building textures: NewReflectionComponentTexture8D91C9AE4C6B8D628CDA3C848426284A (BGRA8, 128X128)
+[2023.10.01-16.34.13:553][939]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.10.01-16.34.13:553][939]MapCheck: New page: Minimal_Default - 1 окт. 2023 г., 22:34:13
+[2023.10.01-16.34.13:554][939]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,705ms to complete.
+[2023.10.01-16.35.25:761][  2]MapCheck: New page: Map Check
+[2023.10.01-16.35.25:780][  2]LightingResults: New page: Lighting Build - 1 окт. 2023 г., 22:35:25
+[2023.10.01-16.35.25:788][  2]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.10.01-16.35.25:800][  2]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.10.01-16.35.25:800][  2]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.10.01-16.35.25:802][  2]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.10.01-16.35.25:802][  2]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17352
+[2023.10.01-16.35.30:405][  2]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.10.01-16.35.30:405][  2]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.10.01-16.35.30:405][  2]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.10.01-16.35.30:405][  2]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.10.01-16.35.30:405][  2]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.10.01-16.35.30:406][  2]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.10.01-16.35.30:489][  2]LogEditorBuildUtils: Build time 0:04
+[2023.10.01-16.35.30:555][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.10.01-16.35.32:435][123]Job is a success!
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.018s
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:      Bricks at depth
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:          1: 5.2% covering 6.2% of volume
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:          2: 93.5% covering 1.8% of volume
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:      Bricks in each level
+[2023.10.01-16.35.32:625][125]LogVolumetricLightmapImport:          Minimal_Default 			 77 bricks 	 100.0% (Persistent Level)
+[2023.10.01-16.35.32:673][125]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 512X256)
+[2023.10.01-16.35.32:673][125]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 512X512)
+[2023.10.01-16.35.32:673][125]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 512X512)
+[2023.10.01-16.35.32:674][125]LogStaticLightingSystem: Minimal_Default_BuiltData storing lightmap data for 5 meshes in 1 LightmapResourceClusters (5.0 Meshes per cluster).
+[2023.10.01-16.35.32:704][125]Lightmass on DESKTOP-D4126L1: 1.21 sec total, 131 ms importing, 12 ms setup, 95 ms photons, 925 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 6.44 sec total, 795 ms processing.
+[2023.10.01-16.35.32:706][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.10.01-16.35.32:776][125]LogStaticLightingSystem: Illumination: 6.90 sec (35 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2023.10.01-16.35.32:776][125]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.10.01-16.35.32:776][125]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.10.01-16.35.33:411][125]DumpUnbuiltLightIteractions
+[2023.10.01-16.35.33:411][125]Lights with unbuilt interactions: 0
+[2023.10.01-16.35.33:411][125]
+[2023.10.01-16.35.33:411][125]Primitives with unbuilt interactions: 0
+[2023.10.01-16.35.33:510][125]LogTexture: Display: Building textures: NewReflectionComponentTextureD6C57B644F03DADF4F2699848FAEA3C3 (BGRA8, 128X128)
+[2023.10.01-16.35.33:524][125]LogTexture: Display: Building textures: NewReflectionComponentTexture8D91C9AE4C6B8D628CDA3C848426284A (BGRA8, 128X128)
+[2023.10.01-16.35.33:568][126]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.10.01-16.35.33:569][126]MapCheck: New page: Minimal_Default - 1 окт. 2023 г., 22:35:33
+[2023.10.01-16.35.33:569][126]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,678ms to complete.
+[2023.10.01-16.36.00:952][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2023.10.01-16.36.48:553][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.10.01-16.36.48:619][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.10.01-16.36.48:662][626]LogSavePackage: Moving '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Minimal_Default42F2FF354EBD1394A3C805A093CC220D.tmp' to '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.10.01-16.36.48:670][626]LogFileHelpers: Saving map 'Minimal_Default' took 0.074
+[2023.10.01-16.36.48:704][626]LogSavePackage: Moving '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Minimal_Default_BuiltDataB68EC0DE45C43359ABACA98183D2B24B.tmp' to '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2023.10.01-16.36.48:729][626]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.01-16.36.48:729][626]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.10.01-16.36.48:729][626]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.10.01-16.36.49:227][675]LogTemp: Repeating last play command: Selected Viewport
+[2023.10.01-16.36.49:233][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.01-16.36.49:233][675]PIE: New page: PIE session: Minimal_Default (1 окт. 2023 г., 22:36:49)
+[2023.10.01-16.36.49:233][675]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.10.01-16.36.49:242][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009187s)
+[2023.10.01-16.36.49:243][675]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.10.01-16.36.49:244][675]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2023.10.01-16.36.49:244][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010568s)
+[2023.10.01-16.36.49:267][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.10.01-16.36.49:268][675]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.01-16.36.49:268][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.01-16.36.49:268][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.01-16.36.49:268][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.01-16.36.49:268][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.01-16.36.49:268][675]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.01-16.36.49:275][675]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.01-16.36.49:275][675]LogAudioMixer: Display: 1: FrontRight
+[2023.10.01-16.36.49:289][675]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2023.10.01-16.36.49:289][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.01-16.36.49:289][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.01-16.36.49:289][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.01-16.36.49:290][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.01-16.36.49:290][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.01-16.36.49:290][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.01-16.36.49:291][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.01-16.36.49:291][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.01-16.36.49:291][675]LogInit: FAudioDevice initialized.
+[2023.10.01-16.36.49:291][675]LogAudio: Display: Audio Device (ID: 8) registered with world 'Minimal_Default'.
+[2023.10.01-16.36.49:300][675]LogLoad: Game class is 'BP_GameMode_C'
+[2023.10.01-16.36.49:305][675]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.10.01-19.36.49
+[2023.10.01-16.36.49:305][675]LogWorld: Bringing up level for play took: 0.004120
+[2023.10.01-16.36.49:305][675]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.10.01-16.36.49:308][675]PIE: Server logged in
+[2023.10.01-16.36.49:309][675]PIE: Play in editor total start time 0,077 seconds.
+[2023.10.01-16.36.58:472][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.01-16.36.58:472][757]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.10.01-16.36.58:473][757]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.10.01-16.36.58:473][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.01-16.36.58:487][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.01-16.36.58:506][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.01-16.36.58:529][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.01-16.36.58:529][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.01-16.36.58:531][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.01-16.36.58:537][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.10.01-16.36.58:565][758]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.10.01-16.37.06:700][684]LogEditorViewport: Clicking on Actor (LMB): BP_Walls_C (BP_Walls2)
+[2023.10.01-16.37.11:075][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2023.10.01-16.37.15:577][686]LogTemp: Repeating last play command: Selected Viewport
+[2023.10.01-16.37.15:585][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.01-16.37.15:585][686]PIE: New page: PIE session: Minimal_Default (1 окт. 2023 г., 22:37:15)
+[2023.10.01-16.37.15:585][686]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.10.01-16.37.15:598][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013211s)
+[2023.10.01-16.37.15:599][686]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.10.01-16.37.15:600][686]LogPlayLevel: PIE: World Init took: (0.001731s)
+[2023.10.01-16.37.15:600][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015142s)
+[2023.10.01-16.37.15:626][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.10.01-16.37.15:629][686]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.01-16.37.15:629][686]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.01-16.37.15:629][686]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.01-16.37.15:630][686]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.01-16.37.15:630][686]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.01-16.37.15:630][686]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.01-16.37.15:630][686]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.01-16.37.15:635][686]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.01-16.37.15:635][686]LogAudioMixer: Display: 1: FrontRight
+[2023.10.01-16.37.15:647][686]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2023.10.01-16.37.15:647][686]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.01-16.37.15:647][686]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.01-16.37.15:647][686]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.01-16.37.15:649][686]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.01-16.37.15:649][686]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.01-16.37.15:649][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.01-16.37.15:650][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.01-16.37.15:650][686]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.01-16.37.15:650][686]LogInit: FAudioDevice initialized.
+[2023.10.01-16.37.15:650][686]LogAudio: Display: Audio Device (ID: 9) registered with world 'Minimal_Default'.
+[2023.10.01-16.37.15:662][686]LogLoad: Game class is 'BP_GameMode_C'
+[2023.10.01-16.37.15:666][686]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.10.01-19.37.15
+[2023.10.01-16.37.15:667][686]LogWorld: Bringing up level for play took: 0.003713
+[2023.10.01-16.37.15:667][686]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.10.01-16.37.15:670][686]PIE: Server logged in
+[2023.10.01-16.37.15:671][686]PIE: Play in editor total start time 0,087 seconds.
+[2023.10.01-16.37.47:453][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.01-16.37.47:453][476]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.10.01-16.37.47:453][476]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.10.01-16.37.47:454][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.01-16.37.47:461][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.01-16.37.47:479][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.01-16.37.47:502][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.01-16.37.47:503][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.01-16.37.47:504][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.01-16.37.47:510][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.10.01-16.37.47:541][477]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.10.01-16.47.29:509][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.10.01-16.47.29:572][931]LogSavePackage: Moving '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Minimal_Default_Auto1DBB331874F22CC211B753D9756F72AEF.tmp' to '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2023.10.01-16.47.29:574][931]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.092
+[2023.10.01-16.47.29:574][931]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.092
+[2023.10.01-16.53.32:284][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.01-16.53.32:341][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.01-16.53.32:389][981]LogSavePackage: Moving '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Saved/Minimal_Default8EE78BD64376B14050B365A4077F398C.tmp' to '../../../../../../Users/letsg/Documents/GitHub/Backrooms/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.10.01-16.53.32:397][981]LogFileHelpers: Saving map 'Minimal_Default' took 0.078
+[2023.10.01-16.53.32:414][981]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.10.01-16.53.32:414][981]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
